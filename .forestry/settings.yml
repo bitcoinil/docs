@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: index.md
+  label: Home
 - type: heading
   label: Example
 - type: directory
@@ -13,9 +16,6 @@ sections:
   match: "**/*"
   templates:
   - page
-- type: document
-  path: index.md
-  label: Home
 - type: document
   path: README.md
   label: README
